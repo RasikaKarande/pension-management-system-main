@@ -3,7 +3,7 @@ import './App.css';
 import Header from './components/Header';
 
 import PensionerData from './components/PensionerData';
-import Hello from './components/Hello';
+
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
      <Header/>
     
      <PensionerData/>
-     <Hello/>
+    
     </div>
   );
 }

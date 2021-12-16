@@ -4,8 +4,8 @@ import axios from 'axios';
 
 
 const getAllPensionerService = () => {
-    console.log(`getPensionerByIdService`);
-    return axios.get(`http://localhost:8082/getallpensioner`);
+    console.log(`getAllPensionerService`);
+    return axios.get(`http://localhost:8082/getpensioner`);
 }
 
 const addPensionerService = (pensioner) => {
@@ -15,12 +15,12 @@ const addPensionerService = (pensioner) => {
 
 const updatePensionerService = (pensioner) => {
     console.log(`getPensionerByIdService`);
-    return axios.post(`http://localhost:8082/updatepensioner`, pensioner);
+    return axios.put(`http://localhost:8082/updatepensioner`, pensioner);
 }
 
 const deletePensionerService = (pensioner_id) => {
     console.log(`getPensionerByIdService`);
-    return axios.post(`http://localhost:8082/deletepensioner${pensioner_id}`);
+    return axios.delete(`http://localhost:8082/deletepensioner/${pensioner_id}`);
 }
 
 

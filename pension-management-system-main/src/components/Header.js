@@ -7,7 +7,7 @@ const Header = () => {
                 <div class="container">
                     <span className="navbar-brand" to="/">
                         <img src="https://cdn.pixabay.com/photo/2020/11/14/19/01/elderly-5743157_1280.png"
-                            height="24px" alt="Pension" />Pension
+                            height="24px" alt="Pension" />Pensioner Details
                     </span>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
                         <span class="navbar-toggler-icon"></span>
